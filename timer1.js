@@ -12,5 +12,10 @@ const timer = function(number) {
 timer(arg);
 
 for (let i = 0; i < arg.length; i ++) {
+<<<<<<< HEAD
   console.log("setting timer for " + arg + " seconds");
 }
+=======
+  timer(arg[i]);
+}
+>>>>>>> 3e92b6416e585679ced32cda7592b1a958766723
